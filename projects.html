@@ -28,7 +28,23 @@
         <!-- Main Content Section: Details about projects -->
         <main>
             <h2>JavaScript Calculator</h2>
-            <p>You can check out my JavaScript calculator <a href="calculator.html">here</a>.</p> <!-- Description and link to JavaScript calculator project -->
+                     <!-- Input fields for entering numbers -->
+        <label for="first-number">First Number:</label> <!-- Label for the first number input field -->
+        <input type="text" id="first-number"> <!-- Input field for the first number -->
+        <label for="second-number">Second Number:</label> <!-- Label for the second number input field -->
+        <input type="text" id="second-number"> <!-- Input field for the second number -->
+        <!-- Buttons for performing different mathematical operations -->
+        <div>
+            <!-- operations -->
+            <button onclick="add()">+</button>
+            <button onclick="subtract()">-</button>
+            <button onclick="multiply()">*</button>
+            <button onclick="divide()">/</button>
+            <button onclick="power()">^</button>
+            <button onclick="clearFields()">Clear</button>
+        </div>
+    <!-- Output display: Shows the result of the operation -->
+        <h3 id="output"></h3> <!-- Element where the calculation result is displayed -->
         </main>
     </div>
 
