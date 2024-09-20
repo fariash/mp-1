@@ -26,7 +26,7 @@ header {
     background-color: #ffb6c1; /* Light pink header background */
     color: white;
     text-align: left;
-    padding: 30px;
+    padding: 2.5%;
     font-size: calc(32px + 2px); /* Dynamically increases the font size */
     width: 100%; /* Full width header */
 }
@@ -36,7 +36,7 @@ nav {
     background-color: #ffe4e1; /* Cream-colored background for the nav */
     width: 30%; /* Nav takes 30% of the container width */
     height: 100%; /* Full height */
-    padding-top: 20px;
+    padding-top: 1.67%;
     text-align: center;
     border-right: 5px solid #ffb6c1; /* Pink border separating nav and content */
 }
@@ -59,7 +59,7 @@ nav ul li a {
     text-decoration: none;
     font-size: calc(20px + 2px); /* Dynamically increases font size */
     display: block;
-    padding: 15px;
+    padding: 1.25%;
     background-color: #ffe4e1; /* Cream background for links */
 }
 
@@ -72,7 +72,7 @@ nav ul li a:hover {
 /* Main content section: Styles the main area of the page where content is displayed */
 main {
     background-color: #fffaf0; /* Very light cream background */
-    padding: 20px;
+    padding: 1.67%;
     width: 100%; /* Takes up full available width */
     text-align: left;
     border-left: 5px solid #ffb6c1; /* Pink border on the left separating it from the nav */
@@ -83,9 +83,9 @@ main {
     width: 150px;
     margin-bottom: 20px;
     float: left; /* Floats the image to the left */
-    margin-left: 10px;
-    margin-right: 20px;
-    margin-top: 20px;
+    margin-left: 0.83%;
+    margin-right: 1.67%;
+    margin-top: 1.67%;
     width: 350px; /* Customizable image width */
     height: 250px; /* Customizable image height */
 }
@@ -102,7 +102,7 @@ footer {
     background-color: #ffb6c1;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding:  0.83%;
     width: 100%; /* Full width */
     position: relative;
     margin-top: auto; /* Pushes footer to the bottom */
@@ -131,7 +131,7 @@ footer {
 
     nav ul li {
         margin: 0;
-        padding: 5px;
+        padding: 0.42%;
     }
 
     nav ul li a {
@@ -141,7 +141,7 @@ footer {
     /* Main content takes full width on small screens */
     main {
         width: 100%;
-        padding: 10px;
+        padding:  0.83%;
         text-align: center;
     }
 
@@ -151,9 +151,9 @@ footer {
     
     .profile-pic {
         display: block; /* Centers the image */
-        margin-left: 10px;
-        margin-right: 20px;
-        margin-top: 20px;
+        margin-left:  0.83%;
+        margin-right: 1.67%;
+        margin-top: 1.67%;
         width: 200px; /* Smaller image size for small screens */
         height: 150px;
     }
@@ -161,24 +161,24 @@ footer {
 
 /* Calculator styling: Input fields and button styling for the calculator */
 input[type="text"] {
-    padding: 10px;
+    padding: 0.83%;
     font-size: 16px;
     border: 2px solid #ffb6c1; /* Pink border around input fields */
     border-radius: 12px; /* Rounded corners */
     background-color: #fffaf0; /* Cream background */
-    margin: 10px;
+    margin: 0.83%;
     width: 200px;
 }
 
 /* Button styling for the calculator: Adds padding, background color, and hover effects */
 button {
-    padding: 10px 20px;
+    padding: 0.83% 1.67%;
     font-size: 18px;
     background-color: #ffb6c1; /* Pink background for buttons */
     color: white;
     border: none;
     border-radius: 12px; /* Rounded corners */
-    margin: 10px;
+    margin: 0.83%;
     cursor: pointer; /* Pointer cursor on hover */
 }
 
@@ -191,8 +191,8 @@ button:hover {
 #output {
     font-size: 24px;
     color: #ff69b4; /* Dark pink text */
-    padding: 10px;
-    margin-top: 20px;
+    padding: 0.83%;
+    margin-top: 1.67%;
     border-radius: 8px; /* Rounded corners for output display */
     border: 2px solid #ffb6c1; /* Pink border around the output */
     background-color: #fffaf0; /* Cream background for the output */
@@ -203,7 +203,7 @@ footer {
     background-color: #ffb6c1;
     color: white;
     text-align: center;
-    padding: 15px;
+    padding: 1.25%;
     width: 100%;
     position: relative;
     margin-top: auto;
