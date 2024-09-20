@@ -80,14 +80,13 @@ main {
 
 /* Profile picture styling: Adjusts size and positioning of profile pictures */
 .profile-pic {
-    width: 150px;
-    margin-bottom: 20px;
+    width: 35%;
+    margin-bottom: 1.5%;
     float: left; /* Floats the image to the left */
     margin-left: 0.83%;
     margin-right: 1.67%;
     margin-top: 1.67%;
-    width: 350px; /* Customizable image width */
-    height: 250px; /* Customizable image height */
+    height: 20.83; /* Customizable image height */
 }
 
 /* Paragraph text in the main content: Styles paragraph text with dynamic font size and pink color */
@@ -167,7 +166,7 @@ input[type="text"] {
     border-radius: 12px; /* Rounded corners */
     background-color: #fffaf0; /* Cream background */
     margin: 0.83%;
-    width: 200px;
+    width: 16.67%;
 }
 
 /* Button styling for the calculator: Adds padding, background color, and hover effects */
